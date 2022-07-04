@@ -48,7 +48,7 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
-          <a class="navbar-brand" href="#menu"><img src="images/Logo/01.png" alt=""></a> </div>
+          <a  class="navbar-brand" href="#menu" ><!-- <img src="images/Logo/01.png" alt=""> --> <h3 style="color:#ffffff;"> <b>Ing. Yefry Ortiz</b> </h3>  </a> </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
@@ -158,7 +158,7 @@
 
         <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="0ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-user"></i> </div>
+            <div class="pull-left"> <i data-toggle="modal" data-target="#modalTitulo" class="fa fa-user"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">Ingeniero en Sistemas</h5>
               <p>Graduado de la carrera de Ingeniería en Sistemas, Universidad Nacional Autónoma de Honduras - CU </p>
@@ -168,7 +168,7 @@
         <!--/.col-md-4-->
         <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="100ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-bars"></i> </div>
+            <div class="pull-left"> <i data-toggle="modal" data-target="#modalCcna1"  class="fa fa-bars"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">CCNA 1 Routing and Swithing</h5>
               <p>Conocimientos introductorios a redes de datos y tecnologías de red.</p>
@@ -178,7 +178,7 @@
         <!--/.col-md-4-->
         <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="200ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-bars"></i> </div>
+            <div class="pull-left"> <i data-toggle="modal" data-target="#modalCcna2"  class="fa fa-bars"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">CCNA 2 Routing and Swithing</h5>
               <p>Principios básicos de de routing y switching.</p>
@@ -188,7 +188,7 @@
         <!--/.col-md-4-->
         <div class="col-md-4 col-sm-6 col-xs-6 wow fadeInUp" data-wow-duration="300ms" data-wow-delay="300ms">
           <div class="media service-box">
-            <div class="pull-left"> <i class="fa fa-bar-chart"></i> </div>
+            <div class="pull-left"> <i data-toggle="modal" data-target="#modalDbar"  class="fa fa-bar-chart"></i> </div>
             <div class="media-body">
               <h5 class="media-heading">Administrador de Bases de Datos</h5>
               <p>Gestor, análogo y mantenimiento de bases de datos. (Capacítate para el empleo)</p>
@@ -196,6 +196,72 @@
           </div>
         </div>
 
+      </div>
+    </div>
+
+
+    <div class="modal fade" id="modalTitulo" tabindex="-1" role="dialog" aria-labelledby="modalTitulo" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img width="100%" height="100%" src="images/tituloCertificado/tituloUNAH.jpeg" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalCcna1" tabindex="-1" role="dialog" aria-labelledby="modalCcna1" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img width="100%" height="100%" src="images/tituloCertificado/ccna1.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalCcna2" tabindex="-1" role="dialog" aria-labelledby="modalCcna2" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img width="100%" height="100%" src="images/tituloCertificado/ccna2.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="modalDbar" tabindex="-1" role="dialog" aria-labelledby="modalDbar" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img width="100%" height="100%" src="images/tituloCertificado/DBA.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-body">
+            <img width="100%" height="100%" src="images/tituloCertificado/evaluador.png" alt="">
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -385,7 +451,7 @@
             <li class="list-group-item"></li>
           </ul>
         </div>
-        <div class="col-md-6 tab-img"><img src="images/Features/01.jpg" class="img-responsive" alt=""></div>
+        <div class="col-md-6 tab-img"><img src="images/Portfolio/becas.png" class="img-responsive" alt=""></div>
       </div>
 
       <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-7">
@@ -408,7 +474,7 @@
             <li class="list-group-item"></li>
           </ul>
         </div>
-        <div class="col-md-6 tab-img"><img src="images/Features/02.jpg" class="img-responsive" alt=""></div>
+        <div class="col-md-6 tab-img"><img src="images/Portfolio/soluciones_globales.png" class="img-responsive" alt=""></div>
       </div>
 
       <div role="tabpanel" class="tab-pane fade feat-sec" id="tab-8">
@@ -429,7 +495,7 @@
               <li class="list-group-item"></li>
             </ul>
         </div>
-        <div class="col-md-6 tab-img"><img src="images/Features/03.jpg" class="img-responsive" alt=""></div>
+        <div class="col-md-6 tab-img"><img src="images/Portfolio/personal.png" class="img-responsive" alt=""></div>
       </div>
 
     </div>
@@ -446,86 +512,75 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6 col-md-3">
-        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="0ms">
-          <ul class="pricing">
-            <li class="plan-header">
-              <div class="price-duration">
-                <div class="price"> $39 </div>
-                <div class="duration"> per month </div>
-              </div>
-              <div class="plan-name"> Starter </div>
-            </li>
-            <li><strong>1</strong> DOMAIN</li>
-            <li><strong>100GB</strong> DISK SPACE</li>
-            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-            <li>SHARED SSL CERTIFICATE</li>
-            <li><strong>10</strong> EMAIL ADDRESS</li>
-            <li><strong>24/7</strong> SUPPORT</li>
-            <li><a class="btn-order" href="#">Order Now</a> </li>
-          </ul>
+      <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
+        <div class="team-sec">
+          <div class="team-img"> <img src="images/Logo/1.png" class="img-responsive" alt="">
+            <div class="team-desc">
+              <h5>RECURSOS HUMANOS</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <footer id="footer-down">
+                <ul class="social-icon">
+                  <li class="facebook hvr-pulse"><a href="http://rrhh.cadss.hn/"><i class="fa fa-link"></i></a></li>
+                </ul>
+                <p> Clic en el enlace</p>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="200ms">
-          <ul class="pricing">
-            <li class="plan-header">
-              <div class="price-duration">
-                <div class="price"> $69 </div>
-                <div class="duration"> per month </div>
-              </div>
-              <div class="plan-name"> Business </div>
-            </li>
-            <li><strong>3</strong> DOMAIN</li>
-            <li><strong>300GB</strong> DISK SPACE</li>
-            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-            <li>SHARED SSL CERTIFICATE</li>
-            <li><strong>30</strong> EMAIL ADDRESS</li>
-            <li><strong>24/7</strong> SUPPORT</li>
-            <li><a class="btn-order" href="#">Order Now</a> </li>
-          </ul>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".2s">
+        <div class="team-sec">
+          <div class="team-img"> <img src="images/Logo/3.png" class="img-responsive" alt="">
+            <div class="team-desc">
+              <h5>SAM - MENSAJERÍA</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <footer id="footer-down">
+                <ul class="social-icon">
+                  <li class="facebook hvr-pulse"><a href="http://mensajeria.cadss.hn/"><i class="fa fa-link"></i></a></li>
+                  <li class="facebook hvr-pulse"><a href="#"><i class="fa fa-play"></i></a></li>
+                </ul>
+                <p> Clic en el enlace</p>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="400ms">
-          <ul class="pricing">
-            <li class="plan-header">
-              <div class="price-duration">
-                <div class="price"> $99 </div>
-                <div class="duration"> per month </div>
-              </div>
-              <div class="plan-name"> Pro </div>
-            </li>
-            <li><strong>5</strong> DOMAIN</li>
-            <li><strong>500GB</strong> DISK SPACE</li>
-            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-            <li>SHARED SSL CERTIFICATE</li>
-            <li><strong>50</strong> EMAIL ADDRESS</li>
-            <li><strong>24/7</strong> SUPPORT</li>
-            <li><a class="btn-order" href="#">Order Now</a> </li>
-          </ul>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
+        <div class="team-sec">
+          <div class="team-img"> <img src="images/Logo/2.png" class="img-responsive" alt="">
+            <div class="team-desc">
+              <h5>CAD software & solutions</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <footer id="footer-down">
+                <ul class="social-icon">
+                  <li class="facebook hvr-pulse"><a href="http://cadss.hn/"><i class="fa fa-link"></i></a></li>
+                </ul>
+                <p> Clic en el enlace</p>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-3">
-        <div class="wow zoomIn" data-wow-duration="400ms" data-wow-delay="600ms">
-          <ul class="pricing">
-            <li class="plan-header">
-              <div class="price-duration">
-                <div class="price"> $199 </div>
-                <div class="duration"> per month </div>
-              </div>
-              <div class="plan-name"> Ultra </div>
-            </li>
-            <li><strong>10</strong> DOMAIN</li>
-            <li><strong>1000GB</strong> DISK SPACE</li>
-            <li><strong>UNLIMITED</strong> BANDWIDTH</li>
-            <li>SHARED SSL CERTIFICATE</li>
-            <li><strong>100</strong> EMAIL ADDRESS</li>
-            <li><strong>24/7</strong> SUPPORT</li>
-            <li><a class="btn-order" href="#">Order Now</a> </li>
-          </ul>
+
+      <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".3s">
+        <div class="team-sec">
+          <div class="team-img"> <img src="images/Logo/4.png" class="img-responsive" alt="">
+            <div class="team-desc">
+              <h5>Café Don Indalecio</h5>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry</p>
+              <footer id="footer-down">
+                <ul class="social-icon">
+                  <li class="facebook hvr-pulse"><a href="https://www.cafedonindalecio.com/"><i class="fa fa-link"></i></a></li>
+                </ul>
+                <p> Clic en el enlace</p>
+              </footer>
+            </div>
+          </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
@@ -540,7 +595,7 @@
           et dolore magna aliqua. Ut enim ad minim veniam</p>
       </div>
     </div>
-    <div class="row">
+<!--     <div class="row">
       <div class="col-md-3 col-sm-6 col-xs-12 team-main-sec wow slideInUp" data-wow-duration="1s" data-wow-delay=".1s">
         <div class="team-sec">
           <div class="team-img"> <img src="images/Team/01.jpg" class="img-responsive" alt="">
@@ -609,7 +664,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
 </section>
 <!--Testimonials-Section-Start-->

@@ -831,7 +831,7 @@ ul.nav li.active a:before {
 	color:#999;
 }
 .team-desc ul.team-social-icon li a i.fa:hover.fa-facebook-f {
-	color:#3b5998;
+	color:#e73131;
 }
 .team-desc ul.team-social-icon li a i.fa:hover.fa-twitter {
 	color:#55acee;
@@ -1079,8 +1079,8 @@ textarea.form-control {
 	padding:25%;
 }
 #footer-down ul li.facebook i.fa:hover {
-	color:#3b5998;
-	border:2px solid #3b5998;
+	color:#e73131;
+	border:2px solid #e73131;
 }
 #footer-down ul li.twitter i.fa:hover {
 	color:#00aced;
